@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_pz34VT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Th9b3d": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Cura del gioiello</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_gFdxCB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fin dai tempi antichi, alle pietre preziose furono associati significati differenti a seconda del colore, della forma o dell'utilizzo, rendendo di fatto ogni pietra un mondo a sè stante, con caratteristiche e simbologie uniche.<br/><br/>Esiste però un denominatore comune tra tutte loro: la Bellezza.</p><p><br/>Ognuna a modo suo è bella nella propria diversità, e ognuna merita una cura speciale, per garantirle colori e splendore sempre ai massimi livelli.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Th9b3d",
+        "text_gFdxCB"
+      ],
+      "custom_css": [
+        "p {font-family: cormorant; padding-left: 5px;}",
+        "h2 {padding: 10px 0; font-family: cormorant;}",
+        "h5 {font-family: cormorant; padding-left: 40px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "curadel_gioiello_NfqmBH": {
+      "type": "CuradelGioiello",
+      "settings": {}
+    },
+    "multirow_3hEYnk": {
+      "type": "multirow",
+      "blocks": {
+        "row_yFK7ba": {
+          "type": "row",
+          "settings": {
+            "caption": "Cura del gioiello",
+            "heading": "Come lavare i gioielli",
+            "text": "<p>Lava i tuoi gioielli immergendoli in una bacinella d’acqua calda con un detergente delicato. Puoi inoltre usare prodotti specifici a immersione per lucidare l’argento, avendo cura di asciugare bene con un panno morbido ed evitando così l’ossidazione dovuta al contatto con l’acqua marina e oggetti contenenti zolfo.</p><p>In caso di incastonature o lavorazioni a griffe è possibile utilizzare un semplice spazzolino per la pulitura, se possibile con setole naturali, in modo da non graffiare l’argento.</p>",
+            "button_label": "",
+            "button_link": "",
+            "video_url": ""
+          }
+        },
+        "row_KKEM9q": {
+          "type": "row",
+          "settings": {
+            "caption": "Cura del gioiello",
+            "heading": "Come asciugare i gioielli",
+            "text": "<p>Dopo aver lavato i tuoi gioielli, ricorda sempre di asciugarli con cura, perché l’umidità potrebbe causare ossidazione.In caso di finiture brunite, pulisci e lucida i gioielli senza esagerare. Una cura eccessiva potrebbe danneggiare la finitura, riducendo il valore dell’oggetto.Per la pulitura delle pietre naturali, ti consigliamo di utilizzare un semplice panno morbido.</p>",
+            "button_label": "",
+            "button_link": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/65d6029fa41c42e5b051b1fed5f8a90b.mp4"
+          }
+        },
+        "row_ggQxJX": {
+          "type": "row",
+          "settings": {
+            "caption": "Cura del gioiello",
+            "heading": "Come conservare i gioielli",
+            "text": "<p>Riponi i singoli gioielli in comparti separati o in sacchettini che limitino contatto, cosi da evitare che i materiali si opacizzino o si graffino. Spesso, infatti, gioielli di materiali diversi richiedono cure diverse e in molti casi non in accordo tra loro.Togli i tuoi gioielli quando usi creme o detergenti, perché i residui di queste sostanze potrebbero causare una prematura usura del metallo.I gioielli che presentano trattamenti superficiali, ossia galvanica e nanoceramica, sono soggetti a usura naturale e tendono a mutare e scolorire. L’usura dona sempre storia e personalità al tuo gioiello, ma se vuoi evitarne l’eccessivo deterioramento, stai attento a profumi e cosmetici a base alcolica, al cloro delle piscine, al ph della pelle e all’esposizione diretta ai raggi del sole, che potrebbero portare anche alla perdita totale del trattamento.</p>",
+            "button_label": "",
+            "button_link": "",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_yFK7ba",
+        "row_KKEM9q",
+        "row_ggQxJX"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "footer2_m6MctJ": {
+      "type": "footer2",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_pz34VT",
+    "curadel_gioiello_NfqmBH",
+    "multirow_3hEYnk",
+    "footer2_m6MctJ"
+  ]
+}

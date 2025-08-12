@@ -1,0 +1,106 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_Gcb9Cc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bP4rf6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em><strong>Spedizioni</strong></em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_VYL7Ni": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        },
+        "text_7L97wK": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        },
+        "text_F7dDMz": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bP4rf6",
+        "text_VYL7Ni",
+        "text_7L97wK",
+        "text_F7dDMz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
+    "rich_text_V3eFYc": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9YPXcF": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        },
+        "text_cmKUXL": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        },
+        "text_fF4fW6": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Vuoi controllare la situazione del tuo ordine?</strong></em></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9YPXcF",
+        "text_cmKUXL",
+        "text_fF4fW6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Gcb9Cc",
+    "rich_text_V3eFYc"
+  ]
+}

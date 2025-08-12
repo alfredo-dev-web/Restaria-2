@@ -1,0 +1,114 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rimborsi_resi_VwLEn3": {
+      "type": "RimborsiResi",
+      "name": "Rimborsi",
+      "settings": {}
+    },
+    "titolo_rimborsi_V4Q6xY": {
+      "type": "titoloRimborsi",
+      "name": "TitoloRimborsi",
+      "settings": {}
+    },
+    "collapsible_content_inX3mC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_az3GWz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Devo creare un account per poter effettuare un ordine?",
+            "icon": "none",
+            "row_content": "<p>No, puoi effettuare un ordine anche come ospite. Se prevedi di acquistare regolarmente sul sito STROILI, ti consigliamo di crearti un account personale per avere vantaggi come: concludere il tuo acquisto più velocemente, accedere alla cronologia ordini, salvare i tuoi dati personali e creare la tua wishlist.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NaCcC8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Come si crea l'account?",
+            "icon": "none",
+            "row_content": "<p>Puoi creare il tuo account in tre semplici passaggi:</p><p>1.Clicca sull'icona in alto a destra IL MIO ACCOUNT e seleziona ISCRIVITI.</p><p>2.Compila con i dati richiesti e premi REGISTRATI.</p><p>3.Controlla nella tua casella di posta l’EMAIL di avvenuta registrazione.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LUDQ9z": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Non riesco ad accedere al mio Account, come posso fare?",
+            "icon": "none",
+            "row_content": "<p>Se non riesci ad accedere al tuo Account, segui le seguenti istruzioni:</p><p>1.Controlla che l’email e la password che stai utilizzando siano le stesse che hai scelto al momento della registrazione.</p><p>2.Se hai dimenticato la password, clicca sul link \"password dimenticata\" e inserisci il tuo indirizzo di posta elettronica. Ti invieremo subito un’email per crearne una nuova.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_M3cEg4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Come posso cancellare il mio account sul sito REST.ARÍA?",
+            "icon": "none",
+            "row_content": "<p>Siamo spiacenti, ma non è possibile cancellare l’account autonomamente. Puoi richiedere la cancellazione contattando il nostro Servizio Clienti dal lunedì al venerdì dalle 9:00 alle 18:00 o tramite il form contatti. Ricordati di indicare l’indirizzo email fornito al momento della registrazione dell’account, in modo da poter verificare che si tratta di una richiesta reale.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Lhbbzx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Devo effettuare il login prima o dopo aver creato il mio carrello?",
+            "icon": "none",
+            "row_content": "<p>È possibile effettuare il login in qualsiasi momento.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_az3GWz",
+        "collapsible_row_NaCcC8",
+        "collapsible_row_LUDQ9z",
+        "collapsible_row_M3cEg4",
+        "collapsible_row_Lhbbzx"
+      ],
+      "custom_css": [],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "footer2_bzmPEM": {
+      "type": "footer2",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "rimborsi_resi_VwLEn3",
+    "titolo_rimborsi_V4Q6xY",
+    "collapsible_content_inX3mC",
+    "footer2_bzmPEM"
+  ]
+}

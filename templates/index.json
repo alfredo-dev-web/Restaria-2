@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Più di un Gioiello, un’emozione.",
+            "heading_size": "h2"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop",
+            "button_link_1": "shopify://pages/shop",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "custom_css": [
+        ".banner:not(.banner--mobile-bottom):not(.email-signup-banner) .banner__box {padding-top: 255px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ProvaSfondo.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "collection_list_xhRHr33": {
+      "type": "collection-list1",
+      "blocks": {
+        "featured_collection_GD6nPt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_C9fEhY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "featured_collection_aHm377": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings"
+          }
+        },
+        "featured_collection_HtfAEm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings"
+          }
+        },
+        "featured_collection_C49Xci": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ciondoli"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_GD6nPt",
+        "featured_collection_C9fEhY",
+        "featured_collection_aHm377",
+        "featured_collection_HtfAEm",
+        "featured_collection_C49Xci"
+      ],
+      "custom_css": [
+        "slider-component {max-width: 1400px;}"
+      ],
+      "settings": {
+        "title": "Indossa la tua unicità",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collezione_homepage_LNHQHG": {
+      "type": "CollezioneHomepage",
+      "custom_css": [
+        "slider-component {max-width: 1400px;}"
+      ],
+      "name": "Collection_Homepage",
+      "settings": {}
+    },
+    "multicolumn_bdQiAg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qpjtjj": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_37.png",
+            "title": "<strong>Realizza il tuo gioiello</strong>",
+            "text": "",
+            "link_label": "Rendilo Tuo",
+            "link": "shopify://pages/rendilounico"
+          }
+        },
+        "column_wxeCcQ": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>Chi è Restaria?</strong>",
+            "text": "",
+            "link_label": "Scopri la nostra Storia",
+            "link": "shopify://pages/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "column_qpjtjj",
+        "column_wxeCcQ"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_ydeTCh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KzPpXk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Realizza il tuo gioiello",
+            "heading_size": "h0"
+          }
+        },
+        "text_KGcetW": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Scopri come renderlo unico</h2>",
+            "text_style": "body"
+          }
+        },
+        "button_XyqizE": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI",
+            "button_link": "shopify://pages/collezioni",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KzPpXk",
+        "text_KGcetW",
+        "button_XyqizE"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_37.png",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_E7GMBf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Prodotti In Offerta",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "offerta",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_jBCRyY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_47batN": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA STORIA DI REST.ARÍA",
+            "heading_size": "hxl"
+          }
+        },
+        "text_UcURiA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dietro ogni creazione Rest.aria c’è un’anima, un’ispirazione, una passione. Non realizziamo solo gioielli di lusso, ma autentiche opere d’arte che celebrano l’eleganza e la tradizione orafa.  </p><p>Vuoi scoprire cosa rende unico ogni pezzo?  </p><p> La nostra filosofia, la nostra storia e la nostra visione ti aspettano.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_rrFGfm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri",
+            "button_link": "shopify://pages/collane",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_47batN",
+        "text_UcURiA",
+        "button_rrFGfm"
+      ],
+      "custom_css": [
+        "p {font-size: 2rem; font-weight: 500;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Foto_ChiSiamo.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_jY8eAg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ryb7BX": {
+          "type": "heading",
+          "settings": {
+            "heading": "LA STORIA DI REST.ARÍA",
+            "heading_size": "h1"
+          }
+        },
+        "text_xfEQW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dietro ogni creazione Rest.aría c’è un’anima, un’ispirazione, una passione. Vuoi scoprire cosa rende unico ogni pezzo?   </p><p>La nostra filosofia, la nostra storia e la nostra visione ti aspettano.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_LUyzF7": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI DI PIÙ",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ryb7BX",
+        "text_xfEQW3",
+        "button_LUyzF7"
+      ],
+      "custom_css": [
+        ".button {color: black; border: none !important; background: transparent; font-weight: bold; margin: 0;}",
+        ".button:after {box-shadow: none !important;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Foto_ChiSiamo.jpg",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_TN4CJK": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Mk4dMb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mamma-1"
+          }
+        },
+        "featured_collection_QwYFqt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "per-ogni-occasione"
+          }
+        },
+        "featured_collection_38nRRk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "compleanno-1"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Mk4dMb",
+        "featured_collection_QwYFqt",
+        "featured_collection_38nRRk"
+      ],
+      "settings": {
+        "title": "Idee Regalo",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/16credit-card_102071.png",
+            "title": "<strong>Pagamenti sicuri</strong>",
+            "text": "<p>Accettiamo i principali </p><p>metodi di pagamento</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/delivery_truck_trucks_logistics_transportation_icon_227793.png",
+            "title": "<strong>Spedizione gratuita</strong>",
+            "text": "<p>In tutto il mondo per </p><p>ordini superiori a 150€</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mfTQ4w": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/satisfaction_feedback_customer_service_help_desk_technical_support_icon_260964.png",
+            "title": "<em><strong>Servizio Clienti</strong></em>",
+            "text": "<p>Lunedi - Venerdi: <strong>09:00 - 18:00</strong></p><p>Sabato: <strong>09:00 - 13:00</strong></p><p>Domenica: <strong>Chiuso</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column_mfTQ4w"
+      ],
+      "custom_css": [
+        ".multicolumn-card {display: flex;}",
+        "div {background-color: white;}",
+        "img {background-color: white;}",
+        "li {background-color: white;}",
+        ".color-scheme-1 {--color-background: white; --color-foregronud: white;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_r6WWkb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWr4wD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>RESTARIA</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_CUXDwh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Restaria realizza Gioielli in Argento 925 dal design unico e ricercato. Anelli, Bracciali, Collane, Orecchini e Ciondoli vengono progettati e lavorati interamente nel nostro laboratorio a napoli in Italia attraverso le mani dei nostri orefici, venendo rifiniti a mano per garantirne il massimo dettaglio e la più elevata qualità. inoltre restaria si impegna anche nel supportare altri negozi offrendo loro la sua collaborazione.</p>"
+          }
+        },
+        "heading_CWa3qz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>VUOI COLLABORARE CON NOI?</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "button_T8GyGA": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTATTACI",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWr4wD",
+        "text_CUXDwh",
+        "heading_CWa3qz",
+        "button_T8GyGA"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collabora_UWm3Cw": {
+      "type": "Collabora",
+      "name": "Collabora_Sezione",
+      "settings": {
+        "newsletter_enable": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "collection_list_xhRHr33",
+    "collezione_homepage_LNHQHG",
+    "multicolumn_bdQiAg",
+    "image_with_text_ydeTCh",
+    "featured_collection_E7GMBf",
+    "image_with_text_jBCRyY",
+    "image_with_text_jY8eAg",
+    "collection_list_TN4CJK",
+    "multicolumn",
+    "rich_text_r6WWkb",
+    "collabora_UWm3Cw"
+  ]
+}

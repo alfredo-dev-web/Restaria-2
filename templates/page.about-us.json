@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_UazEiN": {
+      "type": "multirow",
+      "blocks": {
+        "row_GUzbiX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/restariaaboutus.jpg",
+            "caption": "La mia storia",
+            "heading": "",
+            "text": "<p>Benvenuti nel cuore del Borgo Orefici di Napoli, dove tradizione e innovazione si incontrano. La mia storia inizia lontano dal mondo dei gioielli.<br/>Dopo gli studi di psicologia e dopo aver affrontato un momento importante della mia vita, ho trovato una nuova direzione tra le botteghe orafe di Napoli.<br/>Quella che inizialmente era una semplice curiosita' e' diventata poi una passione travolgente.<br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nJLVm7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/restariaaboutus2.jpg",
+            "caption": "La mia storia",
+            "heading": "",
+            "text": "<p>Dopo un incontro fondamentale per me, ho osservato, studiato, ed affinato le tecniche innovative, fino a diventare la prima donna ad aprire un suo laboratorio orafo al borgo orefici, un ambiente tradizionalmente patriarcale.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_rpeiUE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/restariaaboutus3.jpg",
+            "caption": "La mia storia",
+            "heading": "",
+            "text": "<p>Vengo da una famiglia di artigiani. Da mio padre ho imparato valori preziosi:     l'onesta', il rispetto per il proprio lavoro e quello degli altri ma sopratutto l'importanza di puntare sempre alla qualita' , anche quando richiede sacrifici.<br/>I miei gioielli sono il frutto di tutto il mio percorso di vita : autentici , di qualita' e eleganti; risultato di un lavoro artigianale meticoloso.<br/>Creati per essere indossati da chiunque desideri  esprimere la propria unicita'.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_GUzbiX",
+        "row_nJLVm7",
+        "row_rpeiUE"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {font-family: cormorant; font-size: 20px;}"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "luogo_sezione_p4kyQA": {
+      "type": "Luogo_sezione",
+      "name": "Luogo_Sezione",
+      "settings": {}
+    },
+    "newsletter_KQ4y8g": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_CAk7jF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Iscriviti alla nostra Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_XBaJmR": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Ricevi in anteprima le novità sulle nostre collezioni e gli eventi esclusivi.</p>"
+          }
+        },
+        "email_form_8tUDkm": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_CAk7jF",
+        "paragraph_XBaJmR",
+        "email_form_8tUDkm"
+      ],
+      "custom_css": [
+        "p {margin-top: 0; font-size: 20px;}"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer2_iKPbEr": {
+      "type": "footer2",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "multirow_UazEiN",
+    "luogo_sezione_p4kyQA",
+    "newsletter_KQ4y8g",
+    "footer2_iKPbEr"
+  ]
+}

@@ -1,0 +1,144 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "circlemenu_TDGwwr": {
+      "type": "Circlemenu",
+      "blocks": {
+        "image_gRteGg": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Collane.jpg",
+            "bubble_text": "Collane",
+            "bubble_link": "shopify://collections/necklaces"
+          }
+        },
+        "image_rNN4YD": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Bracciali.jpg",
+            "bubble_text": "Bracciali",
+            "bubble_link": "shopify://collections/bracelets"
+          }
+        },
+        "image_pEHWMM": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Orecchini.jpg",
+            "bubble_text": "Orecchini",
+            "bubble_link": "shopify://collections/earrings"
+          }
+        },
+        "image_TWrgRV": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Anelli.jpg",
+            "bubble_text": "Anelli",
+            "bubble_link": "shopify://collections/rings"
+          }
+        },
+        "image_hwCUEd": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Accessori.jpg",
+            "bubble_text": "Accessori",
+            "bubble_link": "shopify://collections/ciondoli"
+          }
+        },
+        "image_EkkMWn": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/holiday-gift-card.jpg",
+            "bubble_text": "Gift Card",
+            "bubble_link": "shopify://collections/gift-card"
+          }
+        }
+      },
+      "block_order": [
+        "image_gRteGg",
+        "image_rNN4YD",
+        "image_pEHWMM",
+        "image_TWrgRV",
+        "image_hwCUEd",
+        "image_EkkMWn"
+      ],
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#000000",
+        "icon_border_gradient": "",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 3,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "circlemenu_TDGwwr",
+    "banner",
+    "product-grid"
+  ]
+}

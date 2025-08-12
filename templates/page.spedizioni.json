@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "spedizione_finale_GkcUmL": {
+      "type": "SpedizioneFinale",
+      "settings": {}
+    },
+    "titolopaginaspedizione_Kej6q8": {
+      "type": "titolopaginaspedizione",
+      "settings": {}
+    },
+    "collapsible_content_feKwBE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_bwKnqE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Costo della spedizione?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BmFAna": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Come posso tracciare il mio ordine?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_67bMjV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quali sono i tempi di consegna?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FTFccH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quando verrà spedito il mio ordine?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KcjW3n": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Confezione dell'ordine",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_bwKnqE",
+        "collapsible_row_BmFAna",
+        "collapsible_row_67bMjV",
+        "collapsible_row_FTFccH",
+        "collapsible_row_KcjW3n"
+      ],
+      "custom_css": [],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "footer2_CE6HqW": {
+      "type": "footer2",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "spedizione_finale_GkcUmL",
+    "titolopaginaspedizione_Kej6q8",
+    "collapsible_content_feKwBE",
+    "footer2_CE6HqW"
+  ]
+}
