@@ -1,0 +1,622 @@
+{{ 'persona.css' | asset_url | stylesheet_tag }}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<body>
+  <div style="display:block;width:100%;"></div>
+  <div class="titolotesto">
+    <h1>Gioielli Su Misura</h1>
+    <h2>Eleganza e Artigianato per un Stile Unico</h2>
+  </div>
+  <div class="contenitoretesto">
+    <div class="testo1">
+      <h2>Richiedi il preventivo per un progetto personalizzato</h2>
+      <p>
+        Se stai cercando un gioiello esclusivo, pensato e realizzato su misura per te, sei nel posto giusto. Il nostro
+        team di esperti artigiani e designer è pronto a trasformare le tue idee in splendide creazioni personalizzate.
+      </p>
+    </div>
+    <div class="testo2">
+      <h2>Raccontaci il tuo progetto</h2>
+      <p>
+        Creare un gioiello su misura è un'esperienza unica, un viaggio che inizia con la tua idea e prende forma grazie
+        alla nostra esperienza. Raccontaci il tuo progetto, descrivici cosa immagini e quali dettagli lo renderebbero
+        speciale. Ogni creazione è frutto di passione, precisione e una lavorazione attenta che valorizza la tua
+        visione.
+      </p>
+    </div>
+  </div>
+  <h4>Le tappe per creare il tuo gioiello.</h4>
+  <div class="riquadri-container">
+    <div class="riquadro">
+      <div class="riquadro-sinistro">
+        <h1>01</h1>
+        <h2>Disegno</h2>
+        <p>Dopo aver ascoltato le tue richieste, creeremo un disegno unico, su misura per te.</p>
+      </div>
+      <div class="contenitore-immagine2">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Disegno.jpg?v=1753889199"
+          alt=""
+          width="1000"
+          height="500"
+        >
+      </div>
+    </div>
+    <div class="riquadro">
+      <div class="riquadro-sinistro">
+        <h1>02</h1>
+        <h2>Progettazione</h2>
+        <p>Ogni dettaglio sarà curato per riflettere il tuo stile e la tua visione.</p>
+      </div>
+      <div class="contenitore-immagine2">
+        <video
+          src="https://cdn.shopify.com/videos/c/o/v/3cf6b214bc924309aeeec88e2744a158.mp4"
+          width="1000"
+          height="350"
+        ></video>
+      </div>
+    </div>
+    <div class="riquadro">
+      <div class="riquadro-sinistro">
+        <h1>03</h1>
+        <h2>Produzione</h2>
+        <p>Un processo artigianale che garantisce un risultato impeccabile.</p>
+      </div>
+      <div class="contenitore-immagine2">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/ciondoli.jpg?v=1741716380"
+          alt=""
+          width="1000"
+          height="500"
+        >
+      </div>
+    </div>
+    <div class="riquadro">
+      <div class="riquadro-sinistro">
+        <h1>04</h1>
+        <h2>Realizzazione</h2>
+        <p>La tua storia prende forma con un gioiello che racconta la tua visione.</p>
+      </div>
+      <div class="contenitore-immagine2">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/ciondoli.jpg?v=1741716380"
+          alt=""
+          width="1000"
+          height="500"
+        >
+      </div>
+    </div>
+  </div>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { primary: '#8B7D65', secondary: '#E8E6E1' },
+          borderRadius: {
+            none: '0px',
+            sm: '4px',
+            DEFAULT: '8px',
+            md: '12px',
+            lg: '16px',
+            xl: '20px',
+            '2xl': '24px',
+            '3xl': '32px',
+            full: '9999px',
+            button: '8px',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+  >
+  <style>
+    :where([class^='ri-'])::before {
+      content: '\f3c2';
+    }
+    #nofontscale {
+    }
+
+    div,
+    span,
+    section,
+    form,
+    input,
+    label,
+    h1,
+    h2,
+    h3,
+    h4,
+    a,
+    button,
+    textarea,
+    p {
+    }
+    html {
+      scroll-behavior: smooth;
+      will-change: scroll-position;
+    }
+    #shopify-section-sections--23874861498703__footer {
+    }
+    #shopify-section-sections--23874861465935__header {
+    }
+    body {
+      color: #1a1a1a;
+    }
+
+    .max-w-4xl {
+      width: 100%;
+      max-width: 1400px;
+    }
+    .px-6 {
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+    .text-4xl {
+      font-size: 2.25em;
+      line-height: 2.5em;
+    }
+    .max-w-2xl {
+      max-width: 42em;
+    }
+    .h-0\.5 {
+      height: 0.125em;
+    }
+    .w-10 {
+      width: 2.5em;
+    }
+
+    .h-10 {
+      height: 2.5em;
+    }
+
+    .progress-step .w-10 span {
+      font-size: 2.5em;
+    }
+    .text-sm {
+      font-size: 0.875em;
+      line-height: 1.25em;
+    }
+    .mt-2 {
+      margin-top: 0.5em;
+    }
+    .p-8 {
+      padding: 2em;
+    }
+    .text-2xl {
+      font-size: 1.5em;
+      line-height: 2em;
+    }
+    .mb-6 {
+      margin-bottom: 1.5em;
+    }
+    .gap-6 {
+      gap: 1.5em;
+    }
+    .mb-1 {
+      margin-bottom: 0.25em;
+    }
+    .py-3 {
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+    }
+    .px-4 {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    *:focus-visible {
+      outline: unset;
+      outline-offset: unset;
+      box-shadow: unset;
+    }
+    #visibile {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+    }
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number']::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .custom-checkbox input[type='checkbox'] {
+      display: none;
+    }
+    .custom-checkbox .checkbox-icon {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #d1d5db;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    .custom-checkbox input[type='checkbox']:checked + .checkbox-icon {
+      background-color: #8b7d65;
+      border-color: #8b7d65;
+    }
+    .custom-checkbox input[type='checkbox']:checked + .checkbox-icon i {
+      opacity: 1;
+    }
+    .custom-radio input[type='radio'] {
+      display: none;
+    }
+    .custom-radio .radio-icon {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #d1d5db;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s;
+    }
+    .custom-radio .radio-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #8b7d65;
+      opacity: 0;
+      transition: all 0.2s;
+    }
+    .custom-radio input[type='radio']:checked + .radio-icon {
+      border-color: #8b7d65;
+    }
+    .custom-radio input[type='radio']:checked + .radio-icon .radio-dot {
+      opacity: 1;
+    }
+    .custom-range {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: #e5e7eb;
+      outline: none;
+    }
+    .custom-range::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #8b7d65;
+      cursor: pointer;
+      border: 2px solid white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .custom-range::-moz-range-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #8b7d65;
+      cursor: pointer;
+      border: 2px solid white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .file-drop-area {
+      border: 2px dashed #d1d5db;
+      border-radius: 8px;
+      position: relative;
+      transition: all 0.2s;
+    }
+    .file-drop-area.dragover {
+      border-color: #8b7d65;
+      background-color: rgba(139, 125, 101, 0.05);
+    }
+    .file-input {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+    .progress-step {
+      position: relative;
+    }
+    .progress-step::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      height: 2px;
+      width: 100%;
+      background-color: #e5e7eb;
+      transform: translateY(-50%);
+    }
+    .progress-step:last-child::after {
+      display: none;
+    }
+  </style>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+  <div id="swipeto"></div>
+  <div id="nofontscale" class="w-full px-6 py-12" style="display: none;">
+    <div class="max-w-4xl mx-auto">
+      <!-- Page Title -->
+      <div id="point" class="text-center mb-12">
+        <h1 class="text-4xl font-light mb-4">Inizia a progettare i tuoi gioielli su misura</h1>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Condividi la tua visione con noi e i nostri designer esperti ti aiuteranno a realizzare il gioiello dei tuoi
+          sogni
+        </p>
+      </div>
+
+      <!-- Form -->
+      <form id="designForm" class="space-y-12">
+        <!-- Personal Information Section -->
+        <section class="bg-white p-8 rounded-lg shadow-sm">
+          <h2 class="text-2xl font-light mb-6">Dati personali</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label
+                for="fullName"
+                class="block text-sm font-medium text-gray-700 mb-1"
+              >
+                Nome e cognome <span class="text-red-500">*</span></label
+              >
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                required
+                class="w-full px-4 py-3 rounded-button border border-gray-300 focus:border-primary text-sm"
+                placeholder="Inserisci il tuo nome e cognome"
+              >
+            </div>
+            <div>
+              <label
+                for="email"
+                class="block text-sm font-medium text-gray-700 mb-1"
+                >Indirizzo email <span class="text-red-500">*</span></label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 rounded-button border border-gray-300 focus:border-primary text-sm"
+                placeholder="Inserisci il tuo indirizzo email"
+              >
+            </div>
+            <div>
+              <label
+                for="phone"
+                class="block text-sm font-medium text-gray-700 mb-1"
+                >Numero di telefono <span class="text-red-500">*</span></label
+              >
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                class="w-full px-4 py-3 rounded-button border border-gray-300 focus:border-primary text-sm"
+                placeholder="Inserisci il tuo numero di telefono"
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Inspiration Upload Section -->
+        <section class="bg-white p-8 rounded-lg shadow-sm">
+          <h2 class="text-2xl font-light mb-6">Condividi la tua ispirazione</h2>
+          <div class="file-drop-area p-8 text-center" id="dropArea">
+            <input
+              type="file"
+              multiple
+              accept="image/*"
+              class="file-input"
+              id="fileInput"
+            >
+            <div class="w-16 h-16 mx-auto mb-4 text-gray-300">
+              <i class="ri-upload-cloud-line ri-3x"></i>
+            </div>
+            <p class="mb-2 text-gray-700">Drag and drop your images here</p>
+            <p class="text-sm text-gray-500 mb-4">or</p>
+            <button
+              type="button"
+              class="px-6 py-2 bg-white border border-gray-300 text-gray-700 font-medium rounded-button hover:bg-gray-50 transition-all whitespace-nowrap"
+              id="browseButton"
+            >
+              Cerca File
+            </button>
+            <p class="mt-4 text-xs text-gray-500">Formati supportati: JPG, PNG, GIF (Max 5 images, 5MB each)</p>
+          </div>
+          <div
+            class="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3"
+            id="previewContainer"
+          >
+            <!-- Image previews will be added here -->
+          </div>
+        </section>
+
+        <!-- Additional Comments -->
+        <section class="bg-white p-8 rounded-lg shadow-sm">
+          <h2 class="text-2xl font-light mb-6">Informazioni aggiuntive</h2>
+          <div>
+            <label
+              for="comments"
+              class="block text-sm font-medium text-gray-700 mb-1"
+              >sScrivici una descrizione del gioello che vorresti realizzare?</label
+            >
+            <textarea
+              id="comments"
+              name="comments"
+              rows="4"
+              class="w-full px-4 py-3 rounded-button border border-gray-300 focus:border-primary text-sm"
+              placeholder="Share any additional details that might help our designers understand your vision..."
+            ></textarea>
+          </div>
+        </section>
+
+        <!-- Form Actions -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-end">
+          <button
+            type="button"
+            class="px-8 py-3 border border-primary text-primary font-medium rounded-button hover:bg-primary hover:bg-opacity-5 transition-all whitespace-nowrap"
+          >
+            Save as Draft
+          </button>
+          <button
+            type="submit"
+            class="px-8 py-3 bg-primary text-white font-medium rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap"
+          >
+            Invia Richiesta
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- +++++++++++++++++++++++++++++++++++++++++++ -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const riquadri = document.querySelectorAll('.riquadro');
+      const ultimo_riquadro = riquadri[riquadri.length - 1];
+      let currentSection = 0; // Indice del riquadro attuale
+      let isAnimating = false; // Per bloccare interazioni durante la transizione
+      let startTouchY = 0; // Posizione iniziale del touch
+      let fixpos = 80;
+      var prevpos = 100;
+      let creato = true;
+
+      // Funzione per aggiornare la posizione dei riquadri
+      function aggiornaPosizione() {
+        riquadri.forEach((riquadro, index, Arr) => {
+          if (index < Arr.length - 1) {
+            if (riquadro.getBoundingClientRect().top <= fixpos) {
+              if (!riquadro.previousElementSibling || !riquadro.previousElementSibling.classList.contains('el-fisso')) {
+                var copy = riquadro.cloneNode(true);
+                copy.style.height = riquadro.getBoundingClientRect().height + 'px';
+                copy.style.position = 'fixed';
+                copy.style.top = '80px';
+                copy.style.opacity = '1';
+                copy.classList.add('el-fisso');
+                riquadro.before(copy);
+                riquadro.style.opacity = '0';
+
+                requestAnimationFrame(() => {
+                  riquadro.classList.add('scala');
+                });
+                requestAnimationFrame(() => {
+                  copy.classList.add('scala'); // Aggiunge la transizione in modo fluido
+                });
+              }
+            }
+
+            if (riquadro.getBoundingClientRect().top > fixpos) {
+              if (riquadro.previousElementSibling) {
+                if (riquadro.previousElementSibling.classList.contains('el-fisso')) {
+                  riquadro.style.opacity = '1';
+                  riquadro.classList.remove('scala');
+                  riquadro.previousElementSibling.remove();
+                }
+              } else {
+              }
+            }
+          }
+        });
+        if (riquadri[riquadri.length - 1].getBoundingClientRect().top <= fixpos) {
+          var riquadri_fissi = document.querySelectorAll('.el-fisso');
+          riquadri_fissi.forEach((element) => {
+            element.style.visibility = 'hidden';
+          });
+        }
+        if (riquadri[riquadri.length - 1].getBoundingClientRect().top > fixpos) {
+          var riquadri_fissi = document.querySelectorAll('.el-fisso');
+          riquadri_fissi.forEach((element) => {
+            element.style.visibility = 'visible';
+          });
+        }
+      }
+
+      // Gestione dello scroll con il mouse
+      window.addEventListener('scroll', (event) => {
+        aggiornaPosizione();
+      });
+
+      // Gestione del touch (mobile/tablet)
+      window.addEventListener('touchstart', (event) => {
+        startTouchY = event.touches[0].clientY; // Registra la posizione iniziale
+      });
+
+      window.addEventListener('touchend', (event) => {
+        if (isAnimating) return;
+
+        const endTouchY = event.changedTouches[0].clientY;
+        const deltaY = startTouchY - endTouchY;
+
+        isAnimating = true;
+
+        if (deltaY > 50 && currentSection < riquadri.length) {
+          currentSection++;
+        } else if (deltaY < -50 && currentSection > 0) {
+          currentSection--;
+        }
+
+        aggiornaPosizione();
+
+        setTimeout(() => {
+          isAnimating = false;
+        }, 1000); // Durata animazione
+      });
+
+      // Mostra il primo riquadro all'avvio
+      aggiornaPosizione();
+    });
+  </script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const shouldScroll = localStorage.getItem('scrollToPoint');
+      const target = document.getElementById('point');
+
+      if (shouldScroll === 'true') {
+        console.log('scrollToPoint impostato a:', localStorage.getItem('scrollToPoint'));
+        localStorage.removeItem('scrollToPoint');
+
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: 'smooth' });
+
+          // Disattiva lo smooth scroll dopo lo spostamento
+          setTimeout(() => {
+            document.documentElement.style.scrollBehavior = 'auto';
+          }, 1000);
+        }, 300);
+      }
+    });
+  </script>
+</body>
+{% schema %}
+{
+  "name": "Persona",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Persona",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
