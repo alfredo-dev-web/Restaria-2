@@ -1,0 +1,59 @@
+{% schema %}
+{
+  "name": "contatto",
+  "settings": [],
+  "presets": [
+    {
+      "name": "contatto",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+{{ 'contatto.css' | asset_url | stylesheet_tag }}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="contenitore">
+  <video playsinline autoplay muted loop>
+    <source src="https://cdn.shopify.com/videos/c/o/v/ae85246ceb1045eeb6fd7729ea9a3fb3.mp4" type="video/mp4">
+    Il tuo browser non supporta i video.
+  </video>
+  <div class="contenuto">
+    <div class="testo">
+      <h1>Informazioni & Contatti</h1>
+      <p style="padding-top: 2%;">📍 Via Liborio Romano a Napoli</p>
+      <p class="Orefice" style="letter-spacing: 1px; text-align: left; font-size:2vh; padding-top: 4%;">
+        <strong>RESTARIA - Orefice</strong><br>
+        Custodiamo i tuoi momenti preziosi con eleganza e maestria: <br>
+        scopri il gioiello che parla di te.
+      </p>
+    </div>
+    {% form 'contact' %}
+      {{ form.errors | default_errors }}
+      <div class="form">
+        <input type="text" name="contact[first_name]" id="first_name" placeholder="Nome *" required>
+        <input type="tel" name="contact[phone]" id="phone" placeholder="Recapito Telefonico *" required>
+        <input type="email" name="contact[email]" id="email" placeholder="E-mail *" required>
+        <textarea name="contact[body]" placeholder="Messaggio" id="message" rows="9"></textarea>
+        <label style="text-align: center; ">
+          <input type="checkbox" name="consenso" required>
+          Acconsento al trattamento dei miei dati personali.
+        </label>
+        <button type="submit" value="Create">Invia</button>
+      </div>
+    {% endform %}
+  </div>
+</div>
+
+<script>
+  document.getElementById('phone').addEventListener('input', function () {
+    const phoneInput = this;
+    const phonePattern = /^[0-9]{10}$/; // Ad esempio, accetta solo numeri di 10 cifre
+    if (!phonePattern.test(phoneInput.value)) {
+      phoneInput.setCustomValidity('Inserisci un numero di telefono valido (10 cifre).');
+      phoneInput.reportValidity();
+    } else {
+      phoneInput.setCustomValidity(''); // Ripristina la validità se corretto
+    }
+  });
+</script>

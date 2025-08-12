@@ -1,0 +1,459 @@
+{{ 'guidaallataglia.css' | asset_url | stylesheet_tag }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+  <div class="content">
+    <div class="left-side">
+      <div class="Ciao">
+        <ul class="ciaone">
+          <li>
+            <input
+              id="BTS1"
+              class="bts active"
+              type="button"
+              value="Anelli"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS2"
+              class="bts"
+              type="button"
+              value="Bracciali"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS3"
+              class="bts"
+              type="button"
+              value="Collane"
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contenuto1" class="right-side">
+      <h2>Scopri come scegliere la misura perfetta del tuo anello</h2>
+      <div class="tabellaacb">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Misura_anello.png?v=1744910161"
+          alt="Tab Anelli"
+          width="700"
+          height="700"
+        >
+      </div>
+      <div class="testo">
+        <p>
+          Usa i due menu a tendina qui sotto per trovare il diametro o la circonferenza del tuo dito. Segui le
+          istruzioni e dopo consulta la tabella per individuare la misura adatta a te.
+        </p>
+      </div>
+      <div class="boxbtn">
+        <div class="Circicon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Cincorferenza_interna_Icona.png?v=1744893453"
+            alt="Icona Circonferenza"
+            width=""
+            height="250"
+          >
+          <button onclick="openModal('modal1')">Misura la Circonferenza</button>
+        </div>
+        <div id="overlay" onclick="closeAllModals()"></div>
+        <!-- Finestra Modale -->
+        <div id="modal1" class="modal">
+          <span class="close" onclick="closeModal('modal1')">&#10005;</span>
+          <h1>Come misurare la Circonferenza</h1>
+          <p style="text-align-last: center; font-weight: bold;">
+            La circonferenza è la misura della lunghezza che circonda la base del dito. Vi serviranno: <br>
+            • Una striscia di carta o una fettuccina di stoffa <br>
+            • Una matita <br>
+            • Un righello
+          </p>
+          <div class="Contienebox">
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Fotoring.jpg?v=1747905875"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 1</h2>
+                <p>Taglia una lunga striscia di carta.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/misuraperanello.jpg?v=1747906003"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 2</h2>
+                <p>
+                  Avvolgi la striscia di carta attorno alla base del dito desiderato. Per ottenere un risultato più
+                  accurato, tira la carta il più possibile.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/anellomisura.jpg?v=1747906007"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 3</h2>
+                <p>
+                  Assicurati che la carta sia sovrapposta e tirata perfettamente, e segna il punto in cui la striscia di
+                  carta si incontra.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/anellomisura.jpg?v=1747906007"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 4</h2>
+                <p>
+                  Misura la lunghezza della striscia di carta in millimetri. Arrotonda al millimetro intero più vicino.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Circdiamet">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Diametro_Interno_Icona.png?v=1744893453"
+            alt="Icona Diametro"
+            width=""
+            height="250"
+          >
+          <button onclick="openModal('modal2')">Misura il Diametro</button>
+        </div>
+        <div id="overlay"></div>
+        <!-- 2 Finestra Modale -->
+        <div id="modal2" class="modal">
+          <span class="close" onclick="closeModal('modal2')">&#10005;</span>
+          <h1>Come misurare il Diametro</h1>
+          <p style="text-align-last: center; font-weight: bold;">
+            Il diametro è la misura della larghezza interna dell'anello. Vi serviranno: <br>
+            • Un anello adatto a voi <br>
+            • Un righello.
+          </p>
+          <div class="Contienebox">
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/5884349760004016181.jpg?v=1748338160"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 1</h2>
+                <p>Trova un anello adatto a te.</p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/5884349760004016184.jpg?v=1748337980"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Fase 2</h2>
+                <p>
+                  Posiziona l’anello su un righello e misura l’area interna più ampia all’interno dell’anello, da bordo
+                  interno a bordo interno. Arrotonda al millimetro intero più vicino.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contenuto2" class="right-side" style="display: none;">
+      <h2>Come misurare il polso: ricerca la misura perfetta</h2>
+      <div class="tabellaacb">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/fotopolsomisura.jpg?v=1747935438"
+          alt="Tab Collane"
+          width="700"
+          height="700"
+        >
+      </div>
+      <div class="testo">
+        <p>
+          La corretta misurazione del polso è essenziale per scegliere accessori come bracciali che si adattino
+          perfettamente al tuo stile. Se la tua misura si trova a metà tra due taglie, è consigliabile optare per quella
+          più grande, garantendo una vestibilità confortevole e naturale. Considera anche il tuo stile personale: un fit
+          più aderente offre un look elegante e strutturato, mentre una misura leggermente più ampia dona un effetto più
+          morbido e rilassato. Scegli con cura per assicurarti il massimo comfort e valorizzare il tuo accessorio nel
+          modo migliore!
+        </p>
+      </div>
+      <div class="boxbtn">
+        <div class="Circicon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Metro_Sarta.png?v=1744924246"
+            alt="Icona Metro"
+            width=""
+            height="244"
+          >
+          <button onclick="openModal('modal3')">Trova la misura del tuo polso</button>
+        </div>
+        <div id="overlay" onclick="closeAllModals()"></div>
+        <!-- Finestra Modale -->
+        <div id="modal3" class="modal_polso">
+          <span class="close" onclick="closeModal('modal3')">&#10005;</span>
+          <h1>Trova la misura del tuo polso</h1>
+          <p style="text-align-last: center; font-weight: bold;">
+            Per ottenere la misura del tuo polso, devi avere a disposizione: <br>
+            • Metro con misuratore flessibile <br>
+          </p>
+          <div class="Contienebox">
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/5884349760004016183.jpg?v=1748337979"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Opzione 1</h2>
+                <p>
+                  Con il palmo aperto e rivolto verso l'alto, avvolgi il metro attorno al polso, appena sopra l'osso.
+                  Annota la misura del tuo polso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contenuto3" class="right-side" style="display: none;">
+      <h2>Guida alla scelta della misura ideale per la tua collana</h2>
+      <div class="tabellaacb">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/EsempioLunghezzaCollana.jpg?v=1744662642"
+          alt="Tab Collane"
+          width="700"
+          height="700"
+        >
+      </div>
+      <div class="testo">
+        <p>
+          La lunghezza ideale di una collana è una scelta personale, ma esistono criteri fondamentali per trovare quella
+          perfetta per te. Scopri i migliori consigli su come trovare la misura più adatta al tuo stile e valorizzare il
+          tuo look. Segui la nostra guida e trova la tua misura ideale!
+        </p>
+      </div>
+      <div class="boxbtn">
+        <div class="Circicon">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Icona_collana.png?v=1744924517"
+            alt="Icona Collana"
+            width=""
+            height="250"
+          >
+          <button onclick="openModal('modal5')">Misura con la tua collana</button>
+        </div>
+        <div id="overlay" onclick="closeAllModals()"></div>
+        <!-- Finestra Modale -->
+        <div id="modal5" class="modal">
+          <span class="close" onclick="closeModal('modal5')">&#10005;</span>
+          <h1>Misura con la tua collana</h1>
+          <p style="text-align-last: center; font-weight: bold;">
+            Se possiedi già una collana che ti piace come lunghezza, misurala per aiutarti a decidere quale lunghezza
+            scegliere. Ci Sono due i modi possibili per misurare una collana, in entrambi i casi hai bisogno di: <br>
+            • Un metro a nastro o un righello <br>
+            • Una collana che ti piace
+          </p>
+          <div class="Contienebox">
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/ciondoli.jpg?v=1741716380"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Opzione 1</h2>
+                <p>
+                  Misura la lunghezza totale: Distendi la collana su una superficie piana posizionandola dritta.
+                  Misurala da un’estremità all’altra e annota la lunghezza.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/ciondoli.jpg?v=1741716380"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Opzione 2</h2>
+                <p>
+                  Misurala da chiusa: Distendi la collana chiusa su una superficie piana e misura la sua lunghezza da
+                  un’estremità all’altra. Quindi, raddoppia questa misura e scrivila.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Circdiamet">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Metro_Sarta.png?v=1744924246"
+            alt="Icona Nastro"
+            width=""
+            height="244"
+          >
+          <button onclick="openModal('modal6')">Misura con il nastro</button>
+        </div>
+        <div id="overlay"></div>
+        <!-- 2 Finestra Modale -->
+        <div id="modal6" class="modal">
+          <span class="close" onclick="closeModal('modal6')">&#10005;</span>
+          <h1>Misura con il nastro</h1>
+          <p style="text-align-last: center; font-weight: bold;">
+            Se non hai una collana da utilizzare come riferimento, puoi usare un metro a nastro per stabilire la
+            lunghezza perfetta. Hai bisogno di:<br>
+            • Un metro a nastro o un righello <br>
+            • Un pennarello
+          </p>
+          <div class="Contienebox">
+            <div class="box">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/5884349760004016182.jpg?v=1748337980"
+                alt=""
+                width=""
+                height=""
+              >
+              <div class="contienetestobox">
+                <h2>Opzione 1</h2>
+                <p>
+                  Usa un metro a nastro flessibile: Posiziona il metro a nastro attorno al collo, come se fosse una
+                  collana, e regolalo in base alla lunghezza che desideri; quindi, scrivi la misura.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const navlinksuca = document.getElementsByClassName('link-menu-sinistro');
+  const windowPathname = window.location.pathname;
+  const bts = document.getElementsByClassName('bts');
+  const contenuto = document.getElementsByClassName('right-side');
+  for (j = 0; j < bts.length; j++) {
+    bts[0].addEventListener('click', function () {
+      for (i = 0; i < contenuto.length; i++) {
+        if (i == 0) {
+          contenuto[i].style.display = 'block';
+          this.classList.add('active');
+        } else {
+          contenuto[i].style.display = 'none';
+          bts[i].classList.remove('active');
+        }
+      }
+    });
+  }
+  bts[1].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 1) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[2].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 2) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[3].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 3) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[4].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 4) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+</script>
+
+<script>
+  function openModal(modalId) {
+    document.getElementById(modalId).style.display = 'block';
+    document.getElementById('overlay').style.display = 'block';
+  }
+
+  function closeModal(modalId) {
+    document.getElementById(modalId).style.display = 'none';
+
+    // Controlla se entrambi i popup sono chiusi prima di nascondere l'overlay
+    if (
+      document.getElementById('modal1').style.display === 'none' &&
+      document.getElementById('modal2').style.display === 'none'
+    ) {
+      document.getElementById('overlay').style.display = 'none';
+    }
+  }
+
+  function closeAllModals() {
+    document.getElementById('modal1').style.display = 'none';
+    document.getElementById('modal2').style.display = 'none';
+    document.getElementById('overlay').style.display = 'none';
+  }
+</script>
+
+{% schema %}
+{
+  "name": "guidaallataglia",
+  "settings": [],
+  "presets": [
+    {
+      "name": "guidaallataglia",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

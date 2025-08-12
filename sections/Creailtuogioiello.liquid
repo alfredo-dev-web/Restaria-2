@@ -1,0 +1,51 @@
+{{ 'Creailtuogioiello.css' | asset_url | stylesheet_tag }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="containerCrea">
+  <div class="testo">
+    <div class="titolone">
+      <h1>Crea il tuo gioiello</h1>
+      <hr id="linea1">
+    </div>
+    <p>
+      Scopri l'eccellenza nei materiali più raffinati: ogni gioiello è progettato per unire bellezza e resistenza nel
+      tempo. Personalizza il tuo stile con una creazione unica e su misura firmata Rest.aría.
+    </p>
+  </div>
+  <div class="sezionefotovideo">
+    <div class="img">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/DSC03896.jpg?v=1747676188"
+        alt=""
+        width="650"
+        height="600"
+      >
+      <div class="testoPersona">
+        <h1>Crea il tuo gioiello</h1>
+        <p>
+          Esprimi la tua unicità con gioielli personalizzati. Creiamo pezzi esclusivi, su misura per te, combinando
+          materiali pregiati e artigianalità raffinata per dar vita alla tua idea perfetta.
+        </p>
+        <a href="" class="bottoncino">Scopri</a>
+      </div>
+    </div>
+    <div class="videos">
+      <video playsinline autoplay muted loop>
+        <source src="https://cdn.shopify.com/videos/c/o/v/cd3b1d470a6d43c7a25330120a6fcd5c.mp4" type="video/mp4">
+        Il tuo browser non supporta i video.
+      </video>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Creailtuogioiello",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Creailtuogioiello",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

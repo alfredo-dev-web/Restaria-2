@@ -1,0 +1,43 @@
+{{ 'footericone.css' | asset_url | stylesheet_tag }}
+{% schema %}
+{
+  "name": "iconedasmerciare",
+  "settings": [],
+  "presets": [
+    {
+      "name": "iconedasmerciare",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<head>
+  <title>Social Media Buttons with Tooltip | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <a href="https://www.html.it/" class="icon facebook">
+      <div class="tooltip">Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </a>
+    <a href="https://www.html.it/" class="icon twitter">
+      <div class="tooltip">Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </a>
+    <a href="https://www.html.it/" class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </a>
+    <div class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    <a href="#" class="icon youtube">
+      <div class="tooltip">YouTube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </a>
+  </div>
+</body>

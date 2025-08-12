@@ -1,0 +1,75 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_FVyaEq": {
+          "type": "text",
+          "settings": {
+            "heading": "REST.ARÍA",
+            "subtext": "<p><strong>Napoli, Via Liborio Romano , 16</strong></p><p><strong>restaria@EMAIL.IT </strong></p><p><strong>+39119347837843838<br/></strong></p>"
+          }
+        },
+        "link_list_FBH8ji": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Shop</strong>",
+            "menu": "shop"
+          }
+        },
+        "link_list_U6zmhx": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Assistenza</strong>",
+            "menu": "footer"
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Restaria</strong>",
+            "menu": "restaria"
+          }
+        }
+      },
+      "block_order": [
+        "text_FVyaEq",
+        "link_list_FBH8ji",
+        "link_list_U6zmhx",
+        "footer-0"
+      ],
+      "custom_css": [
+        "Footer {padding: 6rem; background: #efebe8; text-decoration-color: white;}",
+        "a {color: black;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "newsletter_enable": true,
+        "newsletter_heading": "<strong>Iscriviti alla nostra Newsletter</strong>",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

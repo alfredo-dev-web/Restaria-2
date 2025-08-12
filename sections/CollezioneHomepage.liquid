@@ -1,0 +1,90 @@
+{{ 'CollezioneHomepage.css' | asset_url | stylesheet_tag }}
+<div class="containerShop">
+  <div class="testo">
+    <div class="titolone">
+      <h1>Verace</h1>
+      <hr id="linea">
+    </div>
+    <p>
+      Da sempre, Restaría mi dona un senso di libertà, appartenenza, eterna bellezza. Abbiamo realizzato una campagna
+      con tutto l'amore per i gioielli senza tempo, in una splendida cornice amalfitana, perchè ogni pezzo racconta una
+      storia Verace.
+    </p>
+  </div>
+  <div class="CollezioneVerace">
+    <div class="videoVerace">
+      <video playsinline autoplay muted loop>
+        <source src="https://cdn.shopify.com/videos/c/o/v/b302feabb8ed4c16b72bf717c5df5b86.mp4" type="video/mp4">
+        Il tuo browser non supporta i video.
+      </video>
+    </div>
+    <div class="imagini">
+      <div class="img1">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Foto_Collezione_Homepage.jpg?v=1748034797"
+          alt=""
+        >
+      </div>
+      <div class="img2">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Foto_Collezione_Homepage2.jpg?v=1748034797"
+          alt=""
+        >
+      </div>
+      <div class="img3">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Foto_Collezione_Homepage3.jpg?v=1748034797"
+          alt=""
+        >
+      </div>
+      <div class="img4">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Foto_Collezione_Homepage4.jpg?v=1748034798"
+          alt=""
+        >
+      </div>
+    </div>
+  </div>
+  <div class="bottone_cont">
+    <a class="bottone_verace" href="collections/verace">Scopri</a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const video = document.querySelector('.videoVerace video');
+    video.play().catch((error) => console.log('Autoplay bloccato:', error));
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    document.querySelectorAll('img').forEach((img) => {
+      observer.observe(img);
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Collection_Homepage",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Collection_Homepage",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,185 @@
+{{ 'Spedizionefinale.css' | asset_url | stylesheet_tag }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+  <div class="content">
+    <div class="left-side">
+      <div class="Headerarticolo">
+        <h1 class="bro">Il mio Account</h1>
+      </div>
+      <div class="Ciao">
+        <ul class="ciaone">
+          <li>
+            <input
+              id="BTS1"
+              class="bts active"
+              type="button"
+              value="Devo creare un account per effettuare un ordine?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS2"
+              class="bts"
+              type="button"
+              value="Come si crea l'account?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS3"
+              class="bts"
+              type="button"
+              value="Non riesco ad accedere al mio Account"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS4"
+              class="bts"
+              type="button"
+              value="Come posso cancellare il mio account?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS5"
+              class="bts"
+              type="button"
+              value="Devo effettuare il login prima di fare un ordine?"
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contenuto1" class="right-side">
+      <div class="Header">
+        <h1 class="Titolo">Devo creare un account per effettuare un ordine?</h1>
+      </div>
+      <p>
+        No, puoi effettuare un ordine anche come ospite. Se prevedi di acquistare regolarmente sul sito STROILI, ti
+        consigliamo di crearti un account personale per avere vantaggi come: concludere il tuo acquisto più velocemente,
+        accedere alla cronologia ordini, salvare i tuoi dati personali e creare la tua wishlist.
+      </p>
+    </div>
+    <div id="contenuto2" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Come si crea l'account?</h1>
+      </div>
+      <p>Puoi creare il tuo account in tre semplici passaggi:</p>
+      <li>Clicca sull'icona in alto a destra IL MIO ACCOUNT e seleziona ISCRIVITI.</li>
+      <li>Compila con i dati richiesti e premi REGISTRATI.</li>
+      <li>Controlla nella tua casella di posta l’EMAIL di avvenuta registrazione.</li>
+    </div>
+    <div id="contenuto3" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Non riesco ad accedere al mio Account</h1>
+      </div>
+      <p>Se non riesci ad accedere al tuo Account, segui le seguenti istruzioni:</p>
+      <li>
+        Controlla che l’email e la password che stai utilizzando siano le stesse che hai scelto al momento della
+        registrazione.
+      </li>
+      <li>
+        Se hai dimenticato la password, clicca sul link "password dimenticata" e inserisci il tuo indirizzo di posta
+        elettronica. Ti invieremo subito un’email per crearne una nuova.
+      </li>
+    </div>
+    <div id="contenuto4" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Come posso cancellare il mio account?</h1>
+      </div>
+      <p>
+        Siamo spiacenti, ma non è possibile cancellare l’account autonomamente. Puoi richiedere la cancellazione
+        contattando il nostro Servizio Clienti dal lunedì al venerdì dalle 9:00 alle 18:00 o tramite il form contatti.
+        Ricordati di indicare l’indirizzo email fornito al momento della registrazione dell’account, in modo da poter
+        verificare che si tratta di una richiesta reale.
+      </p>
+    </div>
+    <div id="contenuto5" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Devo effettuare il login prima di fare un ordine?</h1>
+      </div>
+      <p>È possibile effettuare il login in qualsiasi momento.</p>
+    </div>
+  </div>
+</div>
+<script>
+  const navlinksuca = document.getElementsByClassName('link-menu-sinistro');
+  const windowPathname = window.location.pathname;
+  const bts = document.getElementsByClassName('bts');
+  const contenuto = document.getElementsByClassName('right-side');
+  for (j = 0; j < bts.length; j++) {
+    bts[0].addEventListener('click', function () {
+      console.log('ciao');
+      for (i = 0; i < contenuto.length; i++) {
+        if (i == 0) {
+          contenuto[i].style.display = 'block';
+          this.classList.add('active');
+        } else {
+          contenuto[i].style.display = 'none';
+          bts[i].classList.remove('active');
+        }
+      }
+    });
+  }
+  bts[1].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 1) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[2].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 2) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[3].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 3) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[4].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 4) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+</script>
+{% schema %}
+{
+  "name": "Account",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Account",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
