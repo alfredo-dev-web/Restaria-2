@@ -1,0 +1,503 @@
+@font-face {
+    font-family: "aftika semi bold";
+    src: url("https://cdn.shopify.com/s/files/1/0879/3944/9167/files/FontsFree-Net-Aftika-SemiBold-1.eot?v=1740310661");
+    src: local("aftika semi bold"), url("https://cdn.shopify.com/s/files/1/0879/3944/9167/files/FontsFree-Net-Aftika-SemiBold-1.ttf?v=1740310661"), format("truetype");
+}
+.container p h2 {
+  font-family: "Cormorant", serif;
+}
+.contenitoredeicontainer {
+    display: flex;
+    flex-direction: row;
+}
+.collapsible-container {
+    width: max-content;
+    height: 100%;
+    padding: 5px;
+}
+
+.toggle-button {
+    font-family: "aftika semi bold";
+    color: black;
+    padding: 10px 20px;
+    border: solid;
+    border-style: groove;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    cursor: pointer;
+    font-size: 2vh;
+    width: 100%;
+    letter-spacing: .05em;
+    border-color: #efebe8;
+    background-color: white;
+}
+
+
+.content {
+    display: none; /* Nascondi il contenuto di default */
+    margin-top: 20px;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: groove;
+    margin-bottom: 1%;
+}
+
+.box img {
+    height: 100%;
+    width: 40%;
+    margin: 2%;
+    border: groove;
+}
+
+.box p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding:0;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 600!important;
+}
+
+.box h2 {
+    font-weight: bold;
+    align-self: start;
+    text-align: start;
+    margin: 0;
+}
+
+.box .contienetestobox {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+
+.container {
+      width: 100%;
+      background: #fff;
+      border-radius: 6px;
+      max-width: 1400px;
+      align-self: center;
+      margin: auto;
+      padding-top: 2%;
+      padding-bottom: 5%;
+    }
+    .Ciao {
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      color: #030303;
+      list-style: none;
+      width: 100%;
+    }
+    .ciaone {
+      list-style-type: none; /* nessun elemento come marcatore */
+      padding-left: 0; /* padding nullo */
+      margin: 0; /* margine nullo */
+      line-height: 35px;
+      width: 100%;
+      display: flex;
+      place-content: center;
+    }
+    .Titolo {
+      font-size: 3vw; /* Grandezza titolo */
+      font-weight: bolder;
+      margin-bottom: 0.5vh;
+    }
+    .container .content {
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .bro {
+      font-size: 3vw;
+      font-weight: bolder;
+      white-space: nowrap;
+      margin-bottom: 0.5vh;
+    }
+    .right-side p {
+      font-weight: 500;
+      margin-block-start: 10px;
+      font-size: larger;
+    }
+    .container .content .left-side {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    }
+    .content .left-side::before {
+      content: '';
+      position: absolute;
+      height: 80%;
+      width: 2px;
+      right: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #afafb6;
+    }
+    .container .content .right-side {
+      width: 100%;
+      margin-top: 0;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+      text-align: -webkit-center;
+    }
+    .content .right-side .header {
+      font-size: xx-large;
+      font-weight: 600;
+      color: #030303;
+    }
+    
+    /* Inizio a dare stile ai link della lista */
+    .link-menu-sinistro {
+      text-decoration: none;
+      color: #030303;
+      margin-top: 10px;
+      padding: 4px;
+    }
+    .link-menu-sinisto:hover {
+      background-color: #f6f6f6;
+      text-decoration: underline;
+    }
+    .active {
+      background-color: #f6f6f6 !important;
+    }
+    .bts {
+      text-decoration: none;
+      background-color: transparent;
+      border-style: hidden;
+      color: #030303;
+      margin-top: 10px;
+      padding: 4px;
+      cursor: pointer;
+      white-space: normal;
+      display: flex;
+      text-align: justify;
+    }
+    .bts:hover {
+      background-color: #f6f6f6;
+      text-decoration: underline;
+    }
+    @-webkit-keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+            .container .content .left-side,
+      .container .content .right-side
+       {
+            width: 100%;
+        }
+      .content .left-side::before {
+        display: none;
+      }
+      .Ciao .ciaone {
+        font-size: 2.6vw;
+      }
+    .Ciao li {
+    font-weight: bolder;
+    width: 12%;
+    place-items: center;
+    font-size: x-large;
+    }
+
+      button {
+        background: none;
+        border: none;
+        width: auto;
+        font-size: 25px;
+        padding: 0;
+        font-weight: bold;
+        cursor: pointer;    
+        text-decoration-line:underline;
+      }
+      button:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      
+      }
+      /* Stile per la finestra modale */
+
+      .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 70%;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 1000; /* Per garantire che il modale sia sopra tutto */
+      }
+      .modal_polso {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 70%;
+        height: 70%;
+        overflow-y: auto;
+        z-index: 1000; /* Per garantire che il modale sia sopra tutto */
+      }
+      #overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999; /* Sfondo scuro dietro il modale */
+      }
+      #modal input, #modal textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .close {
+        font-size: 24px;
+        font-weight: bold;
+        color: #d9534f; /* Rosso elegante */
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 1001; /* Sopra tutto */
+      }
+      .close:hover {
+        color: #c9302c;
+      }
+      
+      .modal h1 {
+        font-size: xx-large;
+        font-weight: bold;
+      }
+      .modal::-webkit-scrollbar {
+        display: none; /* Nasconde la barra di scorrimento sui browser basati su WebKit */
+      }
+      
+      /* Fine Stile per la finestra modale */
+
+      /*Inizio Stile per la sezione Contenuto 1 Anelli-Collane-Bracciali */
+      #contenuto1 p {
+        word-wrap: break-word;
+      }
+
+      #contenuto1 h2 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-weight: bold;
+      }
+      #contenuto1 button {
+        margin-top: 7%;
+        color: black;
+      }
+      .testo {
+        word-wrap: break-word;
+        border-top: groove;
+      }
+      .testo p {
+        width: 50%;
+        font-size: larger;
+      }
+      .boximgtesto {
+        display: flex;
+        flex-direction: row;
+      }
+      .boximgtesto img {
+        border: groove;
+      }
+      .tabellaacb {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+      }
+      .tabellaacb img{
+        border-style: groove;
+      }
+      .boxbtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2%;
+      }
+      .Circicon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-right: 7%;
+      }
+      .Circicon img{
+        width: fit-content;
+      }
+      .Circdiamet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+      }
+      .Circdiamet img {
+        width: fit-content;
+      }
+      
+
+      /*LATO MOBILE */
+      @media screen and (max-width: 767px) {
+      .ciaone li {
+        width: auto;
+        margin-left: 5%;
+      }
+      .boxbtn img{
+        width: 50%;
+        height: auto;
+      }
+      .modal {
+        height: 70%;
+        width: 100%;
+      }
+      .tabellaacb img{
+        width: 500px;
+        height: 500px;
+      }
+      .testo p {
+        width: 90%;
+        font-size: larger;
+      }
+      }
+      /* Fine Stile per la sezione Contenuto 1 Anelli-Collane-Bracciali */
+      /* Inizio Stile per la sezione Contenuto 2 Anelli-Collane-Bracciali */
+      #contenuto2 h2 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-weight: bold;
+      }
+      #contenuto2 button {
+        margin-top: 7%;
+        color: black;
+      }
+      #contenuto2 .Circicon {
+        margin: 0;
+      }
+      @media screen and (max-width: 767px) {
+        .ciaone li {
+          width: auto;
+          margin-left: 5%;
+        }
+        .boxbtn img{
+          width: 50%;
+          height: auto;
+        }
+        .modal,.modal_polso{
+          height: 70%;
+          width: 100%;
+        }
+        .tabellaacb img{
+          width: 300px;
+          height: 300px;
+        }
+        .testo p {
+          width: 80%;
+          font-size: larger;
+        }
+        }
+       /* Fine Stile per la sezione Contenuto 2 Anelli-Collane-Bracciali */
+
+      /* Inizio Stile per la sezione Contenuto 3 Anelli-Collane-Bracciali */
+      #contenuto3 h2 {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-weight: bold;
+      }
+      #contenuto3 button {
+        margin-top: 7%;
+        color: black;
+      }
+      /*LATO MOBILE */
+      @media screen and (max-width: 767px) {
+        .ciaone li {
+          width: auto;
+          margin-left: 5%;
+        }
+        .boxbtn img{
+          width: 50%;
+          height: auto;
+        }
+        .modal {
+          height: 70%;
+          width: 100%;
+        }
+        .tabellaacb img{
+          width: 300px;
+          height: 300px;
+        }
+        .testo p {
+          width: 80%;
+          font-size: larger;
+        }
+        /* Fine Stile per la sezione Contenuto 3 Anelli-Collane-Bracciali */
+        /* Inizio modifica MOBILE MODAL per tutti i Contenuti Anelli-Collane-Bracciali */
+        .modal p {
+          font-size: small!important;
+        }
+        .box {
+          display: flex;
+          flex-direction: column;
+        }
+        .box img {
+          width: 70%;
+          display: flex;
+          align-self: center;
+        }
+        .box p{
+          margin-bottom: 5%;
+          text-align: -webkit-center;
+        }
+        .box .contienetestobox {
+          align-self: center;
+        }
+        .box h2 {
+          align-self: center;
+          text-align: none;
+        }
+        #contenuto2 .boxbtn img {
+          width: 30%;
+        }
+        #contenuto2 button {
+          font-size: 20px;
+        }
+       /* Fine modifica MOBILE MODAL per tutti i Contenuti Anelli-Collane-Bracciali */

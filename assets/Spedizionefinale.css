@@ -1,0 +1,145 @@
+@media screen and (min-width: 767px) {
+.container {
+  width: 80%;
+  background: #fff;
+  border-radius: 6px;
+  max-width: 1400px;
+  align-self: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+.container li {
+  font-size: x-large;
+}
+.Ciao {
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  color: #030303;
+  list-style: none;
+}
+.ciaone {
+  list-style-type: none; /* nessun elemento come marcatore */
+  padding-left: 0; /* padding nullo */
+  margin: 0; /* margine nullo */
+  line-height: 35px;
+}
+.ciaone  li{
+  font-size: x-large;
+}
+.Titolo {
+  font-size: 3vw; /* Grandezza titolo */
+  font-weight: bolder;
+  margin-bottom: 0.5vh;
+}
+.container .content {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.bro {
+  font-size: 3vw;
+  font-weight: bolder;
+  white-space: nowrap;
+  margin-bottom: 0.5vh;
+}
+.right-side p {
+  font-weight: 500;
+  margin-block-start: 10px;
+  font-size: x-large;
+}
+.container .content .left-side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.content .left-side::before {
+  content: '';
+  position: absolute;
+  height: 80%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+  margin-top: 0;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.content .right-side .header {
+  font-size: xx-large;
+  font-weight: 600;
+  color: #030303;
+}
+
+/* Inizio a dare stile ai link della lista */
+.link-menu-sinistro {
+  text-decoration: none;
+  color: #030303;
+  margin-top: 10px;
+  padding: 4px;
+}
+.link-menu-sinisto:hover {
+  background-color: #f6f6f6;
+  text-decoration: underline;
+}
+.active {
+  background-color: #f6f6f6 !important;
+}
+.bts {
+  text-decoration: none;
+  background-color: transparent;
+  border-style: hidden;
+  color: #030303;
+  margin-top: 10px;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  text-align: justify;
+}
+.bts:hover {
+  background-color: #f6f6f6;
+  text-decoration: underline;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+}
+@media screen and (max-width: 767px) {
+	.container .content .left-side,
+  .container .content .right-side
+   {
+		width: 100%;
+	}
+  .content .left-side::before {
+    display: none;
+  }
+  .Ciao .ciaone {
+    font-size: 2.6vw;
+  }
+}
+li {
+  font-weight: bolder;
+}

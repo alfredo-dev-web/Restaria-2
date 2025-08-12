@@ -1,0 +1,274 @@
+.footer2_contenitore p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer2_contenitore a {
+  font-family: "Cormorant", serif;
+}
+.footer2_contenitore {
+  width: 100%;
+  height: 40vh;
+  display: block;
+  background-color: #efebe8;
+  padding: 0 3%;
+}
+.footer2_contenitore h1 {
+  margin: 0;
+}
+.footer2_box1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  position: relative;
+}
+.footer2_logo {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align-last: center;
+}
+.footer2_logo h1 {
+  height: auto;
+  width: 100%;
+  font-family: 'aftika semi bold';
+  white-space: nowrap;
+  font-size: clamp(10px, 2vw, 20px);
+}
+.footer2_social {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icona1 {
+  display: flex;
+}
+.icona2 {
+  display: flex;
+}
+.icona3 {
+  display: flex;
+}
+.icona4 {
+  display: flex;
+}
+.footer2_indirizzo {
+  height: 100%;
+  width: 33%;
+  display: block;
+  align-content: center;
+  justify-items: center;
+}
+/* Inizio a dare stile alle icone */
+.icona1 :hover {
+  transform: scale(1.1);
+}
+.icona2 :hover {
+  transform: scale(1.1);
+}
+.icona3 :hover {
+  transform: scale(1.1);
+}
+.icona4 :hover {
+  transform: scale(1.1);
+}
+/* Creo La linea */
+.footer2_box2 :after {
+  content: '';
+  height: 1px;
+  width: calc(100vw - 2 * var(--container-gutter));
+  background: black;
+  display: block;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  opacity: 0.7;
+  max-width: var(--container-max-width);
+}
+
+.footer2_box2 {
+  width: 100%;
+  height: 20%;
+  display: block;
+  position: relative;
+}
+.footer2_box2 hr {
+  margin: 0;
+}
+
+.footer2_box3 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  position: relative;
+}
+.footer2_box3 a {
+  font-family: 'aftika semi bold';
+  white-space: nowrap;
+  font-size: clamp(10px, 1.7vw, 14px);
+  text-decoration: none;
+  position: absolute;
+  justify-content: center;
+  color: black;
+}
+.sezione1 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.sezione2 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.sezione3 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.sezione4 {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+/* Inizio a dare stile ai link */
+.sezione1 :hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+.sezione2 :hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+.sezione3 :hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+.sezione4 :hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+/* Termino il footer con il copyright*/
+.footer2_box4 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.footer2_box4 p {
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .footer2_indirizzomobile {
+    display: none;
+  }
+  .footer2_sezione1mobile {
+    display: none;
+  }
+  .footer2_sezione2mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer2_box1 {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 5%;
+    padding-top: 6%;
+  }
+  .footer2_logo {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  .footer2_logo h1 {
+    height: auto;
+    width: 100%;
+    font-family: 'aftika semi bold';
+    white-space: nowrap;
+    font-size: clamp(10px, 3vw, 30px);
+  }
+  .footer2_social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  /* nascondo questo per il mobile*/
+  .footer2_indirizzo {
+    display: none;
+  }
+  .footer2_box3 {
+    display: none;
+  }
+  /* creo questo div per il mobile*/
+  .footer2_indirizzomobile {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .footer2_box2 {
+    height: 8%;
+  }
+  /*creo questo div per spostare le sezioni e renderle piu visibili*/
+  .footer2_sezione1mobile {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer2_sezione1mobile a {
+    text-decoration: none;
+    font-size: 3vw;
+    white-space: nowrap;
+    color: black;
+  }
+  .footer2_sezione2mobile {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10%;
+  }
+  .footer2_sezione2mobile a {
+    text-decoration: none;
+    font-size: 3vw;
+    white-space: nowrap;
+    color: black;
+  }
+  .footer2_box4 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+  }
+  .footer2_box4 p {
+    align-self: end;
+    font-size: 2vw;
+  }
+}
