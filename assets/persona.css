@@ -1,0 +1,219 @@
+
+body {
+  margin: 0;
+  background-color: black; /* Sfondo elegante cc*/
+  color: white;
+}
+h4 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family:  "Cormorant", serif;
+}
+
+p {
+  font-family: "Cormorant", serif;
+  color: black;
+}
+h2 {
+  font-family:  "Cormorant", serif;
+  font-weight: 600;
+}
+h1 {
+  font-family: "Cormorant", serif;
+  font-weight: 600;
+}
+.titolotesto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titolotesto h1{
+  margin-bottom: 0;
+  margin-top: 2%;
+  font-size: x-large;
+}
+.titolotesto h2{
+  font-family: 'Cormorant', serif;
+  font-weight: 200;
+  margin-top: 0;
+}
+.contenitoretesto {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 2%;
+}
+.contenitoretesto  p {
+  font-size: large;
+  margin-top: 2%;
+}
+.contenitoretesto  h2 {
+  font-size: large;
+  color: black;
+  margin: 0;
+}
+.testo1 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  padding-right: 2%;
+  align-items: center;
+  text-align: -webkit-center;
+}
+.testo2 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  align-items: center;
+  text-align: -webkit-center;
+}
+.testo3 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+  align-items: center;
+  place-self: anchor-center;
+  text-align: -webkit-center;
+}
+.testo3 p {
+  margin-top: 2%;
+}
+.testo3 h2 {
+  margin-bottom: 0;
+}
+.riquadri-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.scala {
+  transform: scale(0.98);
+}
+
+.riquadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  width: 70%;
+  height: 45vh;
+  transform-origin: center;
+  transition: transform 0.5s ease; /* Transizioni fluide */
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 15px rgba(70, 38, 38, 0.3); /* Effetto "carta" */
+  padding: 20px;
+  border-radius: 20px; /* Curve eleganti */
+  max-width: 1400px;
+  align-self: center;
+}
+.riquadro-sinistro {
+  position: relative;
+  width: 45%;
+  height: 100%;
+}
+.contenitore-immagine2 {
+  position: relative;
+  width: 45%;
+}
+.riquadro h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  justify-self: start;
+}
+.riquadro h2 {
+  font-size: 2.5em;
+  justify-self: start;
+}
+
+.riquadro p {
+  font-size: 1em;
+  width: 100%;
+  text-align: start;
+}
+
+.riquadro img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 3px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+  .FormGioiello {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+  --inline-container-max-width:600px!important;
+
+}
+ 
+@media screen and (max-width: 600px) {
+  .riquadro {
+    padding: 5px;
+  }
+  .contenitore-immagine2 {
+    display: flex;
+    width: 85%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    bottom: 8%;
+  }
+  .riquadro-sinistro {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .riquadro p {
+    width: 70%;
+    text-align: center;
+    font-size: 0.6em;
+    margin-top: 2%;
+  }
+  .riquadro h2 {
+    justify-self: center;
+    margin: 0;
+    margin-top: -10px;
+  }
+  .riquadro h1 {
+    margin: 0;
+    justify-self: center;
+  }
+  h4 {
+    font-size: x-large;
+  }
+  .contenitoretesto {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .testo1 {
+    width: 90%;
+    text-align: center;
+    margin: 5%;
+  }
+  .testo2 {
+    width: 90%;
+    text-align: center;
+    margin: 5%;
+  }
+}
