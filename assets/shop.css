@@ -1,0 +1,150 @@
+.CollezioneVerace {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.videoVerace {
+    width: 100%;
+    max-width: 450px; /* Puoi modificare la larghezza massima */
+    margin: 1%;
+    border-color: black;
+    border-radius: 20px;
+}
+ .videoVerace h1 {
+  background: none;
+  font-size: 83px;
+  color: white;
+ } 
+ #linea {
+        position: relative;
+        align-self: center;
+        background-color: #bfbfbf;
+        color: #bfbfbf;
+        height: 1.3px;
+        width: 70px;
+        margin: 0!important;
+        left: 0%;
+        top: 0;
+ }
+ .videoVerace p {
+    font-size: 1.8rem;
+ }
+     .video-link {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      height: 450px;
+    }
+video {
+    width: 450px;
+    height: 600px; /* Altezza fissa */
+    object-fit: cover; /* Per adattare il video senza distorsioni */
+    border: double;
+    border-color: #efebe8;
+    border-style: groove;
+    border-width: thick;
+    border-radius: 20px;
+    pointer-events: none; /* Rende cliccabile il <a> e non il video */
+}
+.testoVideo {
+    position: absolute;
+    top: 81%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: none;
+    font-size: 80px;
+}
+ img {
+    border-radius: 20px;
+    border-color: #efebe8;
+    border-style: groove;
+    border-width: thick;
+}
+.img {
+    margin: 1%;
+}
+.testo {
+    display: flex;
+    flex-direction: column;
+}
+.titolone h1 {
+    display: flex;
+    font-style: italic;
+    font-size: 27px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0;
+}
+.titolone {
+    width: 100%;
+    place-items: center;
+}
+.testo p {
+    width: 100%;
+    font-weight: 800;
+    margin-right: 8%;
+    margin-bottom: 0;
+    text-align: -webkit-center;
+}
+
+.section-template--23874861695311__collection_list_Jhg4YG-padding {
+    padding-top: 1%!important;
+}
+
+slider-component {
+    margin-top: 0!important;
+}
+/* Inizio modifica per Mobile */
+@media screen and (max-width: 767px) {
+.containerShop h1 {
+        font-size: 50px!important;
+}
+.Icone img {
+    border: none!important;
+    height: auto!important;
+    width: 30px!important;
+}
+.titolone {
+    width: 100%!important;
+}
+
+#linea {
+    width: 130px;
+    left: 13%;
+}
+.testo {
+    flex-direction: column;
+    width: 100%;
+}
+
+.testo p {
+    margin-left: 6%!important;
+    margin-right: 2%!important;
+    margin-bottom: 3%!important;
+    width: 90%!important;
+    text-align: start!important;
+
+}
+.CollezioneVerace {
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.img {
+    display: flex;
+    place-self: center;
+    width: 350px;
+    height: auto;
+}
+.videoVerace {
+    width: 350px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+}

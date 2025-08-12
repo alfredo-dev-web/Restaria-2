@@ -1,0 +1,151 @@
+.sezionefotovideo {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+.videos {
+    width: 100%;
+    max-width: 650px; /* Puoi modificare la larghezza massima */
+    margin: 1%;
+    border-color: black;
+    border-radius: 20px;
+}
+ .videos h1 {
+  background: none;
+  font-size: 83px;
+  color: white;
+ } 
+ #linea1 {
+        position: relative;
+        align-self: center;
+        background-color: #bfbfbf;
+        color: #bfbfbf;
+        height: 1.3px;
+        width: 120px;
+        margin: 0!important;
+        left: 0%;
+        top: 0;
+ }
+ .videos p {
+    font-size: 15px;
+ }
+.videos video {
+    width: 650px;
+    height: 600px; /* Altezza fissa */
+    object-fit: cover; /* Per adattare il video senza distorsioni */
+    border-radius: 20px;
+}
+.testoPersona {
+    position: absolute;
+    top: 277%;
+    left: 33%;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: none;
+    font-size: 80px;
+}
+.testoPersona h1 {
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.testoPersona p {
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+    margin-top: 0;
+    width: 500px;
+}
+.containerCrea img {
+    border-radius: 20px;
+    border: double;
+    border-color: #efebe8;
+    border-style: groove;
+    border-width: thick;
+}
+.img {
+    margin: 1%;
+}
+.testo {
+    display: flex;
+    flex-direction: column;
+}
+.titolone h1 {
+    display: flex;
+    font-style: italic;
+    font-size: 27px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0;
+}
+.titolone {
+    width: 100%;
+    margin-top: 2%;
+}
+.testo p {
+    width: 100%;
+    font-weight: 800;
+    margin-right: 5%;
+    margin-bottom: 0;
+    text-align: -webkit-center;
+}
+
+.bottoncino {
+    display: block;
+    background-color: white;
+    color: black;
+    width: 250px;
+    padding: 5px 90px;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.bottoncino:hover {
+    transform: translateY(-5px);
+}
+
+/* Inizio modifica per Mobile */
+@media screen and (max-width: 767px) {
+    .containerCrea h1 {
+    font-size: 50px!important;
+}
+.testoPersona h1 {
+    font-size: 35px!important;
+    margin-bottom: 3%;
+}
+.testoPersona p {
+    font-size: 12px;
+    width: 300px;
+}
+.sezionefotovideo {
+    flex-direction: column;
+    align-items: center;
+}
+.videos {
+    max-width: 300px;
+}
+.videos video {
+    width: 100%;
+    height: auto;
+}
+.testoPersona {
+    width: 300px;
+    font-size: 30px;
+    top: 307%;
+    left: 48%;
+}
+
+.bottoncino {
+    width: 120px;
+    padding: 5px 34px;
+
+}
+#linea1 {
+left: 19%;
+width: 230px;
+}
+
+}

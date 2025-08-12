@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "aftika semi bold";
+    src: url("https://cdn.shopify.com/s/files/1/0879/3944/9167/files/FontsFree-Net-Aftika-SemiBold-1.eot?v=1740310661");
+    src: local("aftika semi bold"), url("https://cdn.shopify.com/s/files/1/0879/3944/9167/files/FontsFree-Net-Aftika-SemiBold-1.ttf?v=1740310661"), format("truetype");
+}
+
+.H1 {
+    font-family: "aftika semi bold"; /* Nome del font */
+    white-space: nowrap;
+    font-size: 5vw;
+}
+
+.Conte{
+    white-space: nowrap;
+    display: flex;
+    place-items: anchor-center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.icona{
+    margin-right: 3%;
+}
+
+.img {
+    position: absolute;
+    width: max-content;
+    height: 8%;
+    margin-right: 190px;
+    margin-top: 3%;
+}

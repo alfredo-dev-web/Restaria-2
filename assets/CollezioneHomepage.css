@@ -1,0 +1,207 @@
+.containerShop {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.imagini img {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.imagini img.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.CollezioneVerace {
+  display: flex;
+  justify-self: center;
+  margin: 0 2rem;
+}
+.videoVerace {
+  width: calc(50% - 10px);
+  margin: 0;
+  height: 100%;
+  aspect-ratio: 1 / 1.2;
+}
+#linea {
+  position: relative;
+  align-self: center;
+  background-color: #bfbfbf;
+  color: #bfbfbf;
+  height: 1.3px;
+  width: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: 0%;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Per adattare il video senza distorsioni */
+  border-radius: 0.6rem;
+}
+.testoVideo {
+  position: absolute;
+  top: 81%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background: none;
+  font-size: 80px;
+}
+.imagini img {
+  object-fit: cover;
+  border-radius: 0.6rem;
+  width: 100%;
+  height: 100%;
+}
+.imagini {
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 10px));
+  gap: 20px; /* Spazio tra le immagini */
+  margin-left: 20px;
+  width: calc(50% - 10px);
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1.2;
+}
+.testo {
+  display: flex;
+  flex-direction: column;
+}
+.titolone h1 {
+  display: flex;
+  font-style: italic;
+  font-size: 3.4rem;
+  font-weight: 600;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0;
+}
+.titolone {
+  width: 100%;
+  place-items: center;
+}
+.testo p {
+  font-size: 1.8rem;
+  width: 60%;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: -webkit-center;
+}
+.bottone_cont {
+  width: 100%;
+  margin-top: 2%;
+  text-align: -webkit-center;
+}
+.bottone_verace {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 6px #0003;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 150px;
+  height: 50px;
+}
+.bottone_verace:hover {
+  background: linear-gradient(135deg, #efebe857, #ffffff); /* Inverti sfumatura */
+  color: black; /* Oro più intenso */
+
+  transform: scale(1.05);
+}
+
+.bottone_verace:active {
+  transform: scale(0.95);
+}
+/* Inizio modifica per Mobile */
+@media screen and (max-width: 767px) {
+  .containerShop h1 {
+    font-size: 3.4rem !important;
+  }
+  .Icone img {
+    border: none !important;
+    height: auto !important;
+    width: 30px !important;
+  }
+  .titolone {
+    width: 100% !important;
+    align-content: center;
+  }
+  .titolone h1 {
+    justify-content: center;
+    align-items: unset;
+  }
+  #linea {
+    width: 70px;
+    left: unset;
+    top: unset;
+  }
+  .testo {
+    flex-direction: column;
+    width: 100%;
+  }
+  .imagini {
+    display: none;
+  }
+  .testo p {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 3% !important;
+    width: 90% !important;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .CollezioneVerace {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .videoVerace {
+    width: 100%;
+    height: auto;
+    aspect-ratio: unset;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+  .bottone_verace {
+    display: block;
+    width: 120px;
+    height: 35px;
+  }
+}
