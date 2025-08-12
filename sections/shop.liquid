@@ -1,0 +1,77 @@
+{{ 'shop.css' | asset_url | stylesheet_tag }}
+<div class="containerShop">
+  <div class="testo">
+    <div class="titolone">
+      <h1>Collezioni</h1>
+      <hr id="linea">
+    </div>
+    <p>
+      Ispirata ai colori e alla luce della meravigliosa Costiera Amalfitana, questa collezione cattura l’essenza di un
+      luogo in cui storia, arte e natura si fondono in perfetta armonia.
+    </p>
+  </div>
+  <div class="CollezioneVerace">
+    <div class="img">
+      <a href="https://restaria.myshopify.com/collections/verace">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/Foto_Shop.jpg?v=1748033821"
+          alt=""
+          width="450"
+          height="600"
+        >
+      </a>
+    </div>
+    <div class="videoVerace">
+      <a href="https://restaria.myshopify.com/collections/verace" class="video-link">
+        <video playsinline autoplay muted loop>
+          <source src="https://cdn.shopify.com/videos/c/o/v/b302feabb8ed4c16b72bf717c5df5b86.mp4" type="video/mp4">
+          Il tuo browser non supporta i video.
+        </video>
+      </a>
+      <div class="testoVideo">
+        <p>Amalfi Coast</p>
+        <h1>Verace</h1>
+      </div>
+    </div>
+    <div class="img">
+      <a href="https://restaria.myshopify.com/collections/verace">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/DSC03794_1.jpg?v=1748338953"
+          alt=""
+          width="450"
+          height="600"
+        >
+      </a>
+    </div>
+  </div>
+  <div class="testo">
+    <div class="titolone">
+      <h1>Categorie</h1>
+      <hr id="linea">
+    </div>
+    <p>
+      Ogni creazione è realizzata con materiali di alta qualità, per offrirti eleganza e raffinatezza. Sfoglia la nostra
+      collezione e trova il gioiello perfetto per ogni occasione.
+    </p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const video = document.querySelector('.videoVerace video');
+    video.play().catch((error) => console.log('Autoplay bloccato:', error));
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Shop",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Shop",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

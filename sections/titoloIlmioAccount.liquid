@@ -1,0 +1,28 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ 'titolopaginaspedizione.css' | asset_url | stylesheet_tag }}
+<div class="Conte">
+  <div class="img" style="margin-right: 230px;">
+    <img
+      class="icona"
+      src="https://cdn.shopify.com/s/files/1/0879/3944/9167/files/9042837_question_mark_circle_icon_0dd77a11-d070-4fb3-bd7b-2d4ca2461c61.svg?v=1740843551"
+      alt="Punto di Domanda icona"
+      width="50"
+      height="50"
+    >
+  </div>
+  <div class="Titolo">
+    <p class="H1">Il mio Account</p>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "TitoloIlmioAccount",
+  "settings": [],
+  "presets": [
+    {
+      "name": "TitoloIlmioAccount",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
