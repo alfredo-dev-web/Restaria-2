@@ -1,0 +1,202 @@
+{{ 'Spedizionefinale.css' | asset_url | stylesheet_tag }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+  <div class="content">
+    <div class="left-side">
+      <div class="Headerarticolo">
+        <h1 class="bro">Rimborsi&Resi</h1>
+      </div>
+      <div class="Ciao">
+        <ul class="ciaone">
+          <li>
+            <input
+              id="BTS1"
+              class="bts active"
+              type="button"
+              value="Qual è la politica di reso?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS2"
+              class="bts"
+              type="button"
+              value="Come posso richiedere il reso?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS3"
+              class="bts"
+              type="button"
+              value="A chi devo spedire l'articolo?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS4"
+              class="bts"
+              type="button"
+              value="Posso Restituire Tutti i Prodotti?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS5"
+              class="bts"
+              type="button"
+              value="E se voglio cambiare un articolo?"
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contenuto1" class="right-side">
+      <div class="Header">
+        <h1 class="Titolo">Qual è la politica di reso?</h1>
+      </div>
+      <p>
+        È possibile restituire, interamente o parzialmente, un ordine entro 14 (quattordici) <br>
+        giorni dalla data di consegna. Le spese di spedizione sono a carico dell’acquirente. <br>
+        Per poter esercitare il diritto di recesso, i prodotti devono essere in perfetto <br>
+        stato di rivendita,cioè inutilizzati, non danneggiati, rovinati o sporchi, <br>
+        muniti di tutti gli eventuali accessori,e imballati nella loro confezione originale, <br>
+        comprensiva di istruzioni per l’utilizzo e documentazione.
+      </p>
+    </div>
+    <div id="contenuto2" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Come posso richiedere il reso?</h1>
+      </div>
+      <p>
+        Per richiedere il reso di un prodotto, segui questi semplici passaggi: <br>
+        (N.B. La spedizione è a carico del cliente.)
+      </p>
+      <li>
+        Contatta il nostro Servizio Clienti: Invia una richiesta di reso tramite il nostro modulo di contatto online o
+        chiamando il nostro numero di assistenza. Assicurati di avere a disposizione il numero d'ordine e il motivo del
+        reso.
+      </li>
+      <li>
+        Prepara il prodotto per il reso: Imballa accuratamente il prodotto nel suo imballaggio originale, assicurandoti
+        che tutti gli accessori, manuali e componenti siano inclusi.
+      </li>
+      <li>
+        Spedisci il pacco: Porta il pacco presso il punto di raccolta scelto da te e conserva la ricevuta di spedizione
+        come prova.
+      </li>
+      <li>
+        Attendi il rimborso: Dopo aver ricevuto e ispezionato il prodotto, procederemo con il rimborso sull'originale
+        metodo di pagamento entro 7-10 giorni lavorativi.
+      </li>
+    </div>
+    <div id="contenuto3" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">A chi devo spedire l'articolo?</h1>
+      </div>
+      <p>
+        L’indirizzo di spedizione è: RESTARIA Via Liborio Romano, 16 – Napoli NA, 80133<br>
+        Se il tuo ordine soddisfa le condizioni di reso, procederemo alla risoluzione <br>
+        da te richiesta. I rimborsi sono emessi entro 14 (quattordici) giorni dalla <br>
+        data di ricezione del reso in magazzino.
+      </p>
+    </div>
+    <div id="contenuto4" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Posso Restituire Tutti i Prodotti?</h1>
+      </div>
+      <p>
+        No, il diritto di recesso, o di ripensamento non si applica a prodotti personalizzati,<br>
+        come quelli sottoposti a incisioni, o a cambi di misura che richiedono oppure hanno <br>
+        richiesto passaggi in laboratorio, nonché per gli accessori appositamente ordinati <br>
+        per il cliente.
+      </p>
+    </div>
+    <div id="contenuto5" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">E se voglio cambiare un articolo?</h1>
+      </div>
+      <p></p>
+    </div>
+  </div>
+</div>
+<script>
+  const navlinksuca = document.getElementsByClassName('link-menu-sinistro');
+  const windowPathname = window.location.pathname;
+  const bts = document.getElementsByClassName('bts');
+  const contenuto = document.getElementsByClassName('right-side');
+  for (j = 0; j < bts.length; j++) {
+    bts[0].addEventListener('click', function () {
+      console.log('ciao');
+      for (i = 0; i < contenuto.length; i++) {
+        if (i == 0) {
+          contenuto[i].style.display = 'block';
+          this.classList.add('active');
+        } else {
+          contenuto[i].style.display = 'none';
+          bts[i].classList.remove('active');
+        }
+      }
+    });
+  }
+  bts[1].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 1) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[2].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 2) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[3].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 3) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[4].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 4) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+</script>
+{% schema %}
+{
+  "name": "Rimborsi",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Rimborsi",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,183 @@
+{{ 'Spedizionefinale.css' | asset_url | stylesheet_tag }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+  <div class="content">
+    <div class="left-side">
+      <div class="Headerarticolo">
+        <h1 class="bro">SPEDIZIONE</h1>
+      </div>
+      <div class="Ciao">
+        <ul class="ciaone">
+          <li>
+            <input
+              id="BTS1"
+              class="bts active"
+              type="button"
+              value="Costo della spedizione?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS2"
+              class="bts"
+              type="button"
+              value="Come posso tracciare il mio ordine?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS3"
+              class="bts"
+              type="button"
+              value="Quali sono i tempi di consegna?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS4"
+              class="bts"
+              type="button"
+              value="Quando verrà spedito il mio ordine?"
+            >
+          </li>
+          <li>
+            <input
+              id="BTS5"
+              class="bts"
+              type="button"
+              value="Confenzione dell'ordine"
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="contenuto1" class="right-side">
+      <div class="Header">
+        <h1 class="Titolo">Costo della spedizione?</h1>
+      </div>
+      <p style="width: 80%;">
+        Il tuo ordine verrà inviato insieme al suo certificato,<br>
+        confezione regalo e fattura in una scatola ben imballata.
+      </p>
+    </div>
+    <div id="contenuto2" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Stato Prodotto</h1>
+      </div>
+      <p>ciao1</p>
+      <li>
+        Per qualsiasi dubbio o richiesta procedi alla compilazione del form sottostante e contattaci, risponderemo entro
+        2-3 giorni lavorativi.
+      </li>
+    </div>
+    <div id="contenuto3" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Stato Prodotto</h1>
+      </div>
+      <p>ciao2</p>
+      <li>
+        Per qualsiasi dubbio o richiesta procedi alla compilazione del form sottostante e contattaci, risponderemo entro
+        2-3 giorni lavorativi.
+      </li>
+    </div>
+    <div id="contenuto4" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Stato Prodotto</h1>
+      </div>
+      <p>ciao3</p>
+      <li>
+        Per qualsiasi dubbio o richiesta procedi alla compilazione del form sottostante e contattaci, risponderemo entro
+        2-3 giorni lavorativi.
+      </li>
+    </div>
+    <div id="contenuto5" class="right-side" style="display: none;">
+      <div class="Header">
+        <h1 class="Titolo">Confezione dell'ordine</h1>
+      </div>
+      <p>
+        Il tuo ordine verrà inviato insieme al suo certificato,<br>
+        confezione regalo e fattura in una scatola ben imballata.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  const navlinksuca = document.getElementsByClassName('link-menu-sinistro');
+  const windowPathname = window.location.pathname;
+  const bts = document.getElementsByClassName('bts');
+  const contenuto = document.getElementsByClassName('right-side');
+  for (j = 0; j < bts.length; j++) {
+    bts[0].addEventListener('click', function () {
+      for (i = 0; i < contenuto.length; i++) {
+        if (i == 0) {
+          contenuto[i].style.display = 'block';
+          this.classList.add('active');
+        } else {
+          contenuto[i].style.display = 'none';
+          bts[i].classList.remove('active');
+        }
+      }
+    });
+  }
+  bts[1].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 1) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[2].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 2) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[3].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 3) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+  bts[4].addEventListener('click', function () {
+    console.log('ciao');
+    for (i = 0; i < contenuto.length; i++) {
+      if (i == 4) {
+        contenuto[i].style.display = 'block';
+        this.classList.add('active');
+      } else {
+        contenuto[i].style.display = 'none';
+        bts[i].classList.remove('active');
+      }
+    }
+  });
+</script>
+{% schema %}
+{
+  "name": "Spedizione",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Spedizione",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
